@@ -3,7 +3,7 @@ import streamlit as st
 import os
 import numpy as np
 import pandas as pd
-import pywt
+
 import mne
 from scipy.stats import entropy, kurtosis, skew
 from sklearn.preprocessing import MinMaxScaler
