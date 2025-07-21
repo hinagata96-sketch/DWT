@@ -11,7 +11,9 @@ import zipfile
 import io
 
 echo "python-3.12" > runtime.txt
-
+git add runtime.txt
+git commit -m "fix: downgrade to Python 3.12 for PyWavelets compatibility"
+git push origin main
 st.title("EEG DWT Batch Feature Extractor")
 st.markdown("""
 Upload a ZIP file containing EEG CSVs organized in class/emotion folders. Select DWT parameters and extract features in batch. Download the results as CSV.
