@@ -15,4 +15,5 @@ matplotlib
 scikit-learn
 mne
 pywt
+PyWavelets
 pywavelets==1.4.1
