@@ -10,6 +10,8 @@ from sklearn.preprocessing import MinMaxScaler
 import zipfile
 import io
 
+echo "python-3.12" > runtime.txt
+
 st.title("EEG DWT Batch Feature Extractor")
 st.markdown("""
 Upload a ZIP file containing EEG CSVs organized in class/emotion folders. Select DWT parameters and extract features in batch. Download the results as CSV.
